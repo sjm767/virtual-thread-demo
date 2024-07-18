@@ -1,6 +1,6 @@
-package com.jaeshim.virtual.thread.demo;
+package com.jaeshim.virtual.thread.purejava;
 
-import com.jaeshim.virtual.thread.runnable.IoBoundRunnable;
+import com.jaeshim.virtual.thread.purejava.runnable.IoBoundRunnable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
@@ -15,8 +15,8 @@ public class PureJavaIoBoundExample {
     long startTime = System.currentTimeMillis();
     log.info("작업 시작. {}", Thread.currentThread());
 
-//    platformThreadWithIoBound();
-    virtualThreadWithIoBound();
+    platformThreadWithIoBound();
+//    virtualThreadWithIoBound();
 
     long endTime = System.currentTimeMillis();
     log.info("작업 종료. {}ms {}", (endTime - startTime), Thread.currentThread());

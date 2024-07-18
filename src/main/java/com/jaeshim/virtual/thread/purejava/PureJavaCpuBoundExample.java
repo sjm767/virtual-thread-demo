@@ -1,6 +1,6 @@
-package com.jaeshim.virtual.thread.demo;
+package com.jaeshim.virtual.thread.purejava;
 
-import com.jaeshim.virtual.thread.runnable.CpuBoundRunnable;
+import com.jaeshim.virtual.thread.purejava.runnable.CpuBoundRunnable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;

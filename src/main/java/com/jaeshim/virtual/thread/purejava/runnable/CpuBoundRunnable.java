@@ -1,4 +1,4 @@
-package com.jaeshim.virtual.thread.runnable;
+package com.jaeshim.virtual.thread.purejava.runnable;
 
 import lombok.extern.slf4j.Slf4j;
 
